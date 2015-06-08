@@ -168,88 +168,88 @@ C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.12 (colgado)\Voluntris\Vo
 C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.12 (colgado)\Voluntris\Voluntris\obj\Debug\Voluntris.csprojResolveAssemblyReference.cache
 C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.12 (colgado)\Voluntris\Voluntris\obj\Debug\Voluntris.dll
 C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.12 (colgado)\Voluntris\Voluntris\obj\Debug\Voluntris.pdb
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Voluntris.dll.config
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Voluntris.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Voluntris.pdb
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Antlr3.Runtime.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\EntityFramework.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\EntityFramework.SqlServer.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Newtonsoft.Json.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Owin.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\RestSharp.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Net.Http.Formatting.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.Helpers.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.Http.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.Http.WebHost.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.Mvc.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.Optimization.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.Razor.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.WebPages.Deployment.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.WebPages.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.WebPages.Razor.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\WebGrease.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\RestSharp.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.Helpers.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.Mvc.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.Optimization.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.Razor.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.WebPages.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.WebPages.Deployment.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.WebPages.Razor.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Antlr3.Runtime.pdb
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Newtonsoft.Json.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Net.Http.Formatting.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.Http.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\System.Web.Http.WebHost.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\EntityFramework.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\EntityFramework.SqlServer.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\System.Web.Helpers.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\System.Web.Mvc.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\System.Web.Optimization.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\System.Web.Razor.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\System.Web.WebPages.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\System.Web.WebPages.Deployment.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\System.Net.Http.Formatting.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\System.Web.Http.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\System.Web.Http.WebHost.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\EntityFramework.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\EntityFramework.SqlServer.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.Security.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.Security.Google.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\obj\Debug\Voluntris.csprojResolveAssemblyReference.cache
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\obj\Debug\Voluntris.dll
-C:\Users\brahim\Documents\Visual Studio 2013\Projects\1.14\Voluntris\Voluntris\obj\Debug\Voluntris.pdb
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Voluntris.dll.config
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Voluntris.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Voluntris.pdb
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Antlr3.Runtime.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\EntityFramework.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\EntityFramework.SqlServer.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Newtonsoft.Json.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Owin.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\RestSharp.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Net.Http.Formatting.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.Helpers.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.Http.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.Http.WebHost.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.Mvc.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.Optimization.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.Razor.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.WebPages.Deployment.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.WebPages.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.WebPages.Razor.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\WebGrease.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\RestSharp.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.Helpers.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.Mvc.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.Optimization.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.Razor.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.WebPages.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.WebPages.Deployment.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.WebPages.Razor.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Antlr3.Runtime.pdb
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Newtonsoft.Json.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Net.Http.Formatting.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.Http.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\System.Web.Http.WebHost.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\EntityFramework.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\EntityFramework.SqlServer.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\System.Web.Helpers.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\System.Web.Mvc.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\System.Web.Optimization.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\System.Web.Razor.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\System.Web.WebPages.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\System.Web.Http.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\EntityFramework.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\obj\Debug\Voluntris.csprojResolveAssemblyReference.cache
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\obj\Debug\Voluntris.dll
+C:\Users\brahim\Dropbox\DAW2\Projecte\Copia Projecte\1.14\Voluntris\Voluntris\obj\Debug\Voluntris.pdb

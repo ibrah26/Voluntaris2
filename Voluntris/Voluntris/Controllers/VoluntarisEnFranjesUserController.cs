@@ -118,7 +118,7 @@ namespace Voluntris.Controllers
 
                             if (voluntaris.Count >= numerMaxim){
 
-                                return RedirectToAction("InfoFranjaPlena");
+                                return RedirectToAction("InfoTecnicNoActiu");
                             } else {
                                 //Itero per les id de les franges seleccionases amb un checkbox a la vista Detail de ProjecteUserController
                                 //igualo el id de la franja a la FranjaHoraria de VoluntariEnFranja
@@ -138,10 +138,11 @@ namespace Voluntris.Controllers
             return RedirectToAction("Index");
         }
 
-        public ActionResult InfoFranjaPlena()
+        public ActionResult InfoTecnicNoActiu()
         {
             TempData["warning"] = "Aquesta Franja Horaria esta coberta, prova amb un altre ;)";
-        
+            //ViewBag.hola = "hola";
+            //Tecnic tecnic = db.Tecnics.Find(id);
             return RedirectToAction("Index" , "ProjectesUser");
         }
 
