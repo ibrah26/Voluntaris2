@@ -259,7 +259,9 @@ namespace Voluntris.Controllers
             }
             ViewBag.ProjecteFranjaHorariaID = new SelectList(db.Projectes.Where(p => p.AdminstradorProjecteID == idUsuari), "ID", "NomProjecte");
             //ViewBag.ProjecteFranjaHorariaID = new SelectList(db.Projectes, "ID", "NomProjecte", franjaHoraria.ProjecteFranjaHorariaID);
-            return View(franjaHoraria);
+            //return View(franjaHoraria);
+
+            return View("CreateDeUnProjecte");
         }
 
         // GET: FranjaHorarias/Edit/5
