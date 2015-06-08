@@ -1,0 +1,66 @@
+﻿@model Voluntris.Models.Projecte
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Projecte</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AdminstradorProjecte.PasswordHash)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdminstradorProjecte.PasswordHash)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoriaProjecte.NomCategoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoriaProjecte.NomCategoria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DelegacioProjecte.ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DelegacioProjecte.ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomProjecte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomProjecte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DescripcioProjecte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescripcioProjecte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ImatgeProjecte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ImatgeProjecte)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

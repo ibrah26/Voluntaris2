@@ -1,0 +1,50 @@
+﻿@model Voluntris.Models.VoluntarisEnFranjes
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>VoluntarisEnFranjes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FranjaHorariaVF.ObservacionsFH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FranjaHorariaVF.ObservacionsFH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VoluntariVF.PasswordHash)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VoluntariVF.PasswordHash)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HaAssistitVF)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HaAssistitVF)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ObservacionsVF)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ObservacionsVF)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

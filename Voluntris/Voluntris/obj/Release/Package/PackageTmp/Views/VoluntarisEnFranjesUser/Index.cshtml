@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Voluntris.Models.VoluntarisEnFranjes>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FranjaHorariaVF.ProjecteFranjaHoraria.NomProjecte)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VoluntariVF.UserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FranjaHorariaVF.HoraInici)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FranjaHorariaVF.HoraFi)
+        </th>
+        <th>
+           @* @Html.DisplayNameFor(model => model.HaAssistitVF) *@
+            Has Assistit
+        </th>
+        @*<th>
+        @Html.DisplayNameFor(model => model.ObservacionsVF)
+        </th>
+        *@
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <th>
+            @Html.DisplayFor(modelItem => item.FranjaHorariaVF.ProjecteFranjaHoraria.NomProjecte)
+        </th>
+        <td>
+            @Html.DisplayFor(modelItem => item.VoluntariVF.UserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FranjaHorariaVF.HoraInici)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FranjaHorariaVF.HoraFi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HaAssistitVF)
+        </td>
+        @*
+    <td>
+        @Html.DisplayFor(modelItem => item.ObservacionsVF)
+    </td>
+        *@
+        <td>
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

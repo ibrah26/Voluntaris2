@@ -1,0 +1,95 @@
+﻿@model Voluntris.Models.Voluntari
+
+@{
+    ViewBag.Title = "Details";
+}
+
+@*<h2>Details</h2>*@
+
+<div class="col-lg-12">
+    <hr />
+
+    <div class="dl-horizontal ">
+      
+        <div class="col-lg-4">
+            <img style="height: 70%; width: 70%" src="~/Content/images/@Model.ImatgeVoluntari" class="img-thumbnail img-responsive" />
+        </div>
+        <div class="col-lg-3">
+            <label>
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </label>
+
+            <p>
+                @Html.DisplayFor(model => model.PhoneNumber)
+            </p>
+
+            <label>
+                @Html.DisplayNameFor(model => model.Email)
+            </label>
+
+            <p>
+                @Html.DisplayFor(model => model.Email)
+            </p>
+
+            <label>
+                @Html.DisplayNameFor(model => model.UserName)
+            </label>
+
+            <p>
+                @Html.DisplayFor(model => model.UserName)
+            </p>
+
+            <label>
+                @Html.DisplayNameFor(model => model.DataNeixement)
+            </label>
+
+            <p>
+                @Html.DisplayFor(model => model.DataNeixement)
+            </p>
+            <p>
+                @Html.ActionLink("Editar Info Personal", "Edit", new { id = Model.Id })
+            </p>
+        </div>
+        <div class="col-lg-5">
+            <h1>Hores : @ViewBag.Hores</h1>
+            <hr />
+            <h4>Propers projectes on t'has apuntat</h4>
+            <table class="table table-striped">
+                <tr>
+                    <th>Projecte</th>
+                    <th>Inici</th>
+                    <th>Fi</th>
+                </tr>
+                @foreach (var vf in @ViewBag.FranjesFutur)
+                {
+                    <tr class="alert-success">
+                        <td>@vf.FranjaHorariaVF.ProjecteFranjaHoraria.NomProjecte</td>
+                        <td>@vf.FranjaHorariaVF.HoraInici</td>
+                        <td>@vf.FranjaHorariaVF.HoraFi</td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <div class="col-lg-12">
+            <h4>Projectes que has asistit</h4>
+            <table class="table table-striped">
+                <tr>
+                    <th>Projecte</th>
+                    <th>Inici</th>
+                    <th>Fi</th>
+                </tr>
+                @foreach (var vf in @ViewBag.FranjesHaAssitit)
+                {
+                    <tr class="alert-info">
+                        <td>@vf.FranjaHorariaVF.ProjecteFranjaHoraria.NomProjecte</td>
+                        <td>@vf.FranjaHorariaVF.HoraInici</td>
+                        <td>@vf.FranjaHorariaVF.HoraFi</td>
+                    </tr>
+                }
+            </table>
+        </div>
+        
+    
+    </div>
+</div>
+

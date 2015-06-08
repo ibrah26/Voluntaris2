@@ -1,0 +1,41 @@
+﻿@using Microsoft.AspNet.Identity
+@using Voluntris.Controllers
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+    @Html.AntiForgeryToken()
+
+    <ul class="nav navbar-nav navbar-right">
+   
+        @if (User.IsInRole("RolVoluntari"))
+        {
+            AccionsComunesController a = new AccionsComunesController();
+
+            var voluntari = a.getVoluntariPerId(User.Identity.GetUserId());
+
+            <li>
+                @Html.ActionLink("Hola " + User.Identity.GetUserName() + "!", "Details", "VoluntarisUser", routeValues: null, htmlAttributes: new { title = "Perfil" })
+            </li>
+
+            <li><a><img style="height : 30px; width : 30px;" src="~/Content/images/@voluntari.ImatgeVoluntari" class="img-circle img-responsive" /></a></li>
+        }
+        else
+        {
+            <li>
+                @Html.ActionLink("Hola " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+            </li>
+        }
+
+        <li><a href="javascript:document.getElementById('logoutForm').submit()">Cerrar sesión</a></li>
+    </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        @*<li>@Html.ActionLink("Registrarse", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>*@
+        <li>@Html.ActionLink("Registrarse", "Create", "VoluntarisUser", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Iniciar sesión", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

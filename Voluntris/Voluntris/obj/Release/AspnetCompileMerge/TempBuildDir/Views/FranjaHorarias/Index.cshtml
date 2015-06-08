@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Voluntris.ViewModels.FranjaVoluntari>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.frajahoraria.ProjecteFranjaHoraria.NomProjecte)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.frajahoraria.HoraInici)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.frajahoraria.HoraFi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.frajahoraria.ObservacionsFH)
+        </th>
+        <th>
+            Min
+        </th>
+        <th>
+            Max
+        </th>
+        <th>
+            Actual
+        </th>
+        <th>
+            Controls
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+                
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.frajahoraria.ProjecteFranjaHoraria.NomProjecte)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.frajahoraria.HoraInici)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.frajahoraria.HoraFi)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.frajahoraria.ObservacionsFH)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.frajahoraria.NumeroMinim)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.frajahoraria.NumeroMaxim)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.numeroVoluntarisApuntats)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.frajahoraria.ID }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.frajahoraria.ID }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.frajahoraria.ID })
+                    </td>
+                </tr>
+}
+
+</table>

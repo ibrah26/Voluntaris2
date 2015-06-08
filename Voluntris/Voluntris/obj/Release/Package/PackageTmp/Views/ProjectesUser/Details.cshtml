@@ -1,0 +1,101 @@
+﻿@model Voluntris.Models.Projecte
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Projecte</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoriaProjecte.NomCategoria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoriaProjecte.NomCategoria)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomProjecte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomProjecte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DescripcioProjecte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescripcioProjecte)
+        </dd>
+        @*
+    <dt>
+        @Html.DisplayNameFor(model => model.ImatgeProjecte)
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.ImatgeProjecte)
+    </dd>
+        *@
+    </dl>
+</div>
+
+
+    @using (Html.BeginForm("Create", "VoluntarisEnFranjesUser", new { idProjecte = @ViewBag.IdProjecte }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+    <div class="form-group">
+        <div class="col-md-10 col-lg-12">
+    
+           
+            <br />
+            <table class="table table-striped">
+                <tr>
+                    <th> Hora Inci</th>
+                    <th> Hora Fi</th>
+                    <th> Estas Apuntat</th>
+                    <th> Minim Voluntaris</th>
+                    <th> Máxim Voluntaris</th>
+                    <th> Voluntaris Apuntats</th>
+                </tr>
+                @foreach (var item in @ViewBag.Franjes)
+                {
+                    <tr>
+                        <td>@item.frajahoraria.HoraInici</td>
+                        <td>@item.frajahoraria.HoraFi</td>
+
+                        @if(@item.estaSelec == true)
+                        {
+                        <td>
+                            <input type="checkbox" checked="" name="franjesSeleccionades" value="@item.frajahoraria.ID" class=" checkbox-inline " />
+                        </td>
+                        }
+                        else
+                        {
+                        <td>
+                            <input type="checkbox" name="franjesSeleccionades" value="@item.frajahoraria.ID" class=" checkbox-inline " />
+                        </td>
+                        }
+                        <td>@item.frajahoraria.NumeroMinim</td>
+                        <td>@item.frajahoraria.NumeroMaxim</td>
+                        <td>@item.numeroVoluntarisApuntats</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    }
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="voluntaris" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\brahim\\Documents\\Visual\ Studio\ 2013\\Projects\\1\.14\\Voluntris\\Voluntris\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\brahim\\Documents\\Visual\ Studio\ 2013\\Projects\\1\.14\\Voluntris\\Voluntris\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ApplicationDbContext-Web.config Connection String" description="" value="Data Source=p5h2pmd832;Initial Catalog=voluntdb;User Id=voluntUser;Password=asd54a45saASD!" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\brahim\\Documents\\Visual\ Studio\ 2013\\Projects\\1\.14\\Voluntris\\Voluntris\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationDbContext']/@connectionString" />
+  </parameter>
+</parameters>

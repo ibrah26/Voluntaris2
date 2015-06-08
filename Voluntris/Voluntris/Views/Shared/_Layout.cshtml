@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+    <body>
+                @{var stringNavar = "";}
+                @if (Request.IsAuthenticated && User.IsInRole("Root")){
+                
+                            stringNavar = "navbar navbar-default navbar-fixed-top";
+                }else {
+                        stringNavar ="navbar navbar-inverse navbar-fixed-top";
+                }
+
+                     <div class="@stringNavar">
+                         <div class="container">
+                             <div class="navbar-header">
+                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                     <span class="icon-bar"></span>
+                                     <span class="icon-bar"></span>
+                                     <span class="icon-bar"></span>
+                                 </button>
+                                 @Html.ActionLink("Voluntaris en Xarxa", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                             </div>
+                             <div class="navbar-collapse collapse">
+                                 <ul class="nav navbar-nav">
+                                     @if (Request.IsAuthenticated)
+                                       {
+                                           if (User.IsInRole("Root"))
+                                           {
+                                             <li>@Html.ActionLink("Voluntaris", "Index", "Voluntaris")</li>
+                                                             <li>@Html.ActionLink("Adminis", "Index", "Administradors")</li>
+                                                             <li>@Html.ActionLink("Deleg", "Index", "Delegacions")</li>
+                                                             <li>@Html.ActionLink("Catego", "Index", "Categories")</li>
+                                                             <li>@Html.ActionLink("Projectes", "Index", "Projectes")</li>
+                                                             <li>@Html.ActionLink("Franjes", "Index", "FranjaHorarias")</li>
+                                                             <li>@Html.ActionLink("VolEnFranj", "Index", "VoluntarisEnFranjes")</li>
+                                                             <li>@Html.ActionLink("Rol", "Index", "Rols")</li>
+                                           }
+                                           else if (User.IsInRole("RolAdministrador"))
+                                           {
+                                             <li>@Html.ActionLink("Projectes", "Index", "Projectes")</li>
+                                                             <li>@Html.ActionLink("Franjes", "Index", "FranjaHorarias")</li>
+                                                             <li>@Html.ActionLink("Categories", "Index", "Categories")</li>
+                                                             <li>@Html.ActionLink("Voluntaris", "Index", "Voluntaris")</li>
+                                                             <li>@Html.ActionLink("VolEnFranj", "Index", "VoluntarisEnFranjes")</li>
+                                           }
+                                           else if (User.IsInRole("RolVoluntari"))
+                                           {
+
+                                                            <li>@Html.ActionLink("Projectes", "Index", "ProjectesUser")</li>
+                                                            <li>@Html.ActionLink("Franjes", "Index", "VoluntarisEnFranjesUser")</li>
+                                                            <li><a href="http://xarxadeconvivencia.org/">Web</a></li>
+                                           }
+
+                                       }
+                                 </ul>
+                                 @Html.Partial("_LoginPartial")
+                             </div>
+                         </div>
+                     </div>
+        @{
+
+            var tempDataProva = TempData["warning"] as String;
+
+            if (!tempDataProva.IsEmpty())
+            {
+                <div class="alert alert-warning" role="alert">
+                    <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+                    <span class="sr-only">waring</span>
+
+                    @tempDataProva
+                </div>
+            }
+        }
+            <div class="container body-content">
+                @RenderBody()
+                <hr />
+                <footer>
+                    <p>&copy; @DateTime.Now.Year - Voluntaris en Xarxa</p>
+                </footer>
+            </div>
+
+            @Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/bootstrap")
+            @RenderSection("scripts", required: false)
+</body>
+</html>

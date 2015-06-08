@@ -1,0 +1,50 @@
+﻿@model Voluntris.Models.VoluntarisEnFranjes
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>VoluntarisEnFranjes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @*@Html.DisplayNameFor(model => model.FranjaHorariaVF.ObservacionsFH)*@
+            Observacions Franja
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FranjaHorariaVF.ObservacionsFH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HaAssistitVF)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HaAssistitVF)
+        </dd>
+
+        <dt>
+            Observacions Voluntari
+            @*@Html.DisplayNameFor(model => model.ObservacionsVF)*@
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ObservacionsVF)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Torna Enrere", "Index")
+        </div>
+    }
+</div>

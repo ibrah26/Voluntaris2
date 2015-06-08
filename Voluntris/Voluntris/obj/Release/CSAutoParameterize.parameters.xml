@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ApplicationDbContext-Web.config Connection String" description="ApplicationDbContext Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=p5h2pmd832;Initial Catalog=voluntdb;User Id=voluntUser;Password=asd54a45saASD!;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\brahim\\Documents\\Visual\ Studio\ 2013\\Projects\\1\.14\\Voluntris\\Voluntris\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="ApplicationDbContext_DatabasePublish-Web.config Connection String" description="ApplicationDbContext_DatabasePublish Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="ApplicationDbContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\brahim\\Documents\\Visual\ Studio\ 2013\\Projects\\1\.14\\Voluntris\\Voluntris\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationDbContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

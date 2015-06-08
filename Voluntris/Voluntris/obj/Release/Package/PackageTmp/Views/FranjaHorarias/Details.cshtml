@@ -1,0 +1,50 @@
+﻿@model Voluntris.Models.FranjaHoraria
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>FranjaHoraria</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProjecteFranjaHoraria.NomProjecte)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProjecteFranjaHoraria.NomProjecte)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HoraInici)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoraInici)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HoraFi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoraFi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ObservacionsFH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ObservacionsFH)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

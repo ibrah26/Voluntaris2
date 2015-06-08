@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="a2cb9c3c-005a-4e62-938e-4495c14ba6cb" name="GestioVoluntaris" linkedPackageId="81f59f37-71d4-4c1c-91e1-57ed8bc94b0d" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b7703512-c099-476c-b54f-3e83dba48771" name="IdentityUser" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4ea9832d-fbed-48ae-b325-b776606e5516" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d25261e0-6a78-431c-97fa-3c37a16a5c36" name="User" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="11479f84-105c-4194-be5f-303cdc8ee0c7" />
+        <generalsInternal>
+          <generalization Id="9001b6fd-6600-4586-b3a6-6836d3ece186" isSubstitutable="false">
+            <classMoniker Id="b7703512-c099-476c-b54f-3e83dba48771" LastKnownName="IdentityUser" />
+            <elementDefinition Id="7318e2dd-f808-4c90-bc17-56be590b248c" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="49052d33-9d95-42d5-b00e-748f4e935e7c" name="Administrador" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5b54b1d0-e2ee-4c31-a9da-93b29388cae0" />
+        <generalsInternal>
+          <generalization Id="de420d95-d510-42a6-883b-d001939d9d5a" isSubstitutable="false">
+            <classMoniker Id="d25261e0-6a78-431c-97fa-3c37a16a5c36" LastKnownName="User" />
+            <elementDefinition Id="1e3c5caf-c6e6-4fe0-888c-78de7befce52" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="aa86972e-d009-4e37-b51a-4831a23e794b" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Categoria" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9f3e4ae7-4941-439d-9077-838191107749" LastKnownName="Categoria" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1506d3d8-9c97-488d-a5ca-3ab2183be596" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="454227b4-de96-41ef-8d79-345be604e0a6" name="Lower" value="1-1">
+                      <elementDefinition Id="bc9f7e59-f493-4a93-8ca4-442011c5215d" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="f0f20606-ad25-470f-bdcc-8b96af73d36a" name="Upper" value="1-1">
+                      <elementDefinition Id="040dcbf0-ddad-4330-b2ec-2a8d2e7092ee" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="03426b4d-e5c6-491c-9b2e-5a4e14b96bde" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8a76c9ac-88f8-4e14-bd21-675c0465a752" name="Categoria" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="9132fe12-0571-4626-996e-a141c1b39224" name="Lower" value="0-n">
+                      <elementDefinition Id="6a8b4f9c-2131-4fa1-8f85-9747707e9704" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="72a8a4f7-1408-4989-9625-50a75f6e5254" name="Upper" value="0-n">
+                      <elementDefinition Id="72e60d83-a41a-4cef-9fb5-b89d664e3484" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="9496f3af-3669-41d5-8650-136444d8df2f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5afb6775-e008-4a6c-ac1a-6476ce89ce41" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7c498eaf-5520-4b9c-a9ad-85d6d229a957" name="Voluntari" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="92445d57-8f6d-4b20-bec1-fd7f912adeee" />
+        <generalsInternal>
+          <generalization Id="afbcb9cb-3747-4037-a911-3fce13e815f3" isSubstitutable="false">
+            <classMoniker Id="d25261e0-6a78-431c-97fa-3c37a16a5c36" LastKnownName="User" />
+            <elementDefinition Id="e42bef8a-8bd5-4023-95a3-ddd6a81825a8" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="b2e384ed-05a1-47e9-acc6-de5177104fde" isDerived="false" sourceEndRoleName="Voluntari" targetEndRoleName="Categoria" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9f3e4ae7-4941-439d-9077-838191107749" LastKnownName="Categoria" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e469eab-ed22-4e80-9926-4ac4559fac4f" name="Voluntari" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="6db89e38-300b-491a-bf34-bd81798b1452" name="Lower" value="0-n">
+                      <elementDefinition Id="f4f24ee4-0dc6-438c-859d-2ed9cbbeedad" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="d9e801a0-b40f-4f9d-b175-10306bcf4000" name="Upper" value="0-n">
+                      <elementDefinition Id="d23b0655-95e2-446b-bb3f-be29f1047777" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="96671ea3-1db7-4ff5-802d-0c8594ba9748" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ac7d0460-b684-4c2d-abd7-dff3a02d9b38" name="Categoria" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="85e89b54-783a-49e2-82b5-856b1e8cb156" name="Lower" value="1-n">
+                      <elementDefinition Id="e0007076-a93d-4267-99c2-0e2983a32c61" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="3a208c00-3faa-4c8b-9f4e-f0bfde4303b5" name="Upper" value="1-n">
+                      <elementDefinition Id="ff92c2b6-a232-4dfd-8c74-f7b8680520c2" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="ba7d6a7e-db4e-4112-8639-3ba6540e17f9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ff834ff2-7af9-4554-a8d7-af7e47ee3bed" />
+          </association>
+          <association Id="93cd66d9-3d69-41e1-b89b-9a9ed1e53538" isDerived="false" sourceEndRoleName="Voluntari" targetEndRoleName="VoluntarisEnFranja" isLeaf="false" isAbstract="false">
+            <classMoniker Id="40c190c3-e1b8-4ca5-b992-af66cf18681b" LastKnownName="VoluntarisEnFranja" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="395c9763-0cf1-44b0-80fb-fb0c871a656d" name="Voluntari" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="7bd4a7f7-0bc1-4ff2-8161-6966ff59898d" name="Lower" value="1-1">
+                      <elementDefinition Id="1fe984c8-6f91-4219-b84f-e87ef9d52ce6" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="06fe1397-3638-4a09-96b9-9f51f5582323" name="Upper" value="1-1">
+                      <elementDefinition Id="296d251e-0657-4536-b2a5-90dd3c8a6318" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="c40145eb-9c4e-4d8c-b92c-16fed1415fe9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="199f7e59-a1ff-4c90-b230-5ad1ef594fab" name="VoluntarisEnFranja" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="b68e0860-eb0f-462d-b07a-1ebf17526f46" name="Lower" value="0n">
+                      <elementDefinition Id="5f462e84-dabf-4d0b-9d76-77e60399d467" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="b4cd98c0-07a1-45aa-8c7a-bb3a82c0397b" name="Upper" value="0n">
+                      <elementDefinition Id="d00617b3-be75-4964-8f5c-30138769442f" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="cfee3d4f-ee0a-4a97-93fe-921e3dc5b2e5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="97baabc8-2113-4ff2-a7bc-356d5081271c" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3f66e81f-553e-461a-84fc-47a1de517cbe" name="Delegacio" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8308c8f8-8e98-4edc-880c-2b8c4dd4ebba" />
+        <targetEnds>
+          <association Id="49f62035-7243-4355-bc35-361c3069b971" isDerived="false" sourceEndRoleName="Delegacio" targetEndRoleName="Administrador" isLeaf="false" isAbstract="false">
+            <classMoniker Id="49052d33-9d95-42d5-b00e-748f4e935e7c" LastKnownName="Administrador" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="389e0f4a-0cba-4cf9-9a95-ca25caf83f94" name="Delegacio" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="627c6d37-c022-40c3-993f-5e72a86b7c08" name="Lower" value="1-0">
+                      <elementDefinition Id="5733fae9-9a4c-4d82-8016-d4857c3de8df" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="2946a552-80f4-4165-be43-ff4c4e313911" name="Upper" value="1-0">
+                      <elementDefinition Id="9eb941dd-f400-4c95-8bb7-68620fd6f483" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="359ab36c-f400-4204-bcd7-eab4a7917f51" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="77f9ed47-112b-4bde-b421-f6eaaf360b56" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="22ae31ac-77cf-4c31-b5fe-28d1b4958e78" name="Lower" value="1-1">
+                      <elementDefinition Id="e42c42fa-d960-4823-b3a6-0035a23be003" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="319db3c6-fc4f-4e62-94a7-99b9c59b1c26" name="Upper" value="1-1">
+                      <elementDefinition Id="70a2c97b-53aa-4807-80e3-e60f8f94f88e" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="d3665016-9d5b-4ac4-86bd-ccfa97e3f83a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c0c7899c-449f-495e-b97e-628fda8d8992" />
+          </association>
+          <association Id="402ce0c9-9159-48cf-8bf3-cb0c606f93da" isDerived="false" sourceEndRoleName="Delegacio" targetEndRoleName="Voluntari" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7c498eaf-5520-4b9c-a9ad-85d6d229a957" LastKnownName="Voluntari" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="606115cc-106a-49a3-9a7c-38368681dfc4" name="Delegacio" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="fa5c1c62-2800-4581-a72d-97ba09201630" name="Lower" value="1-1">
+                      <elementDefinition Id="ce09e2e9-73b6-4a2f-9fd6-5ed49cbfb8ad" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="6961c5b8-e725-44e9-b90e-c585686f93e9" name="Upper" value="1-1">
+                      <elementDefinition Id="6252c0e4-487d-4474-889a-d370fd42ef8c" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="6ce48587-20c5-4301-be95-d5bf2c98625c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fd080537-a833-48f5-85a1-2ff0271b7bae" name="Voluntari" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="ce9da796-70a2-4694-9fd8-2aadcd6b3012" name="Lower" value="0 -n">
+                      <elementDefinition Id="e69d66ab-3ea9-423f-b1ab-2db8c4c81247" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="be658c66-3f8d-4ced-8f62-b0ac15b2dfef" name="Upper" value="0 -n">
+                      <elementDefinition Id="092d5196-db56-4f1e-80d2-a8689be1b702" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="6350bb96-ba78-42ed-8ca0-cb139a50eeb6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="24bb30e2-456e-495b-94b6-3a7ce9c0e950" />
+          </association>
+          <association Id="c3d054be-742c-40a0-a032-9801ce19d2f6" isDerived="false" sourceEndRoleName="Delegacio" targetEndRoleName="Projecte" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d9bea0c9-c6fd-46db-b34c-e555d52c30bb" LastKnownName="Projecte" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="396754f5-73e8-4e6b-855e-d6aa834c2b01" name="Delegacio" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="fae69352-1e24-47f5-9395-33f54f65f06b" name="Lower" value="1-1">
+                      <elementDefinition Id="7da40b55-16b1-4270-a742-2b620bf69d0f" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="e772bfaa-09b4-45d4-8b0a-6a9e0ceb48b4" name="Upper" value="1-1">
+                      <elementDefinition Id="52f4f6ea-9050-4af9-be74-a0ecfc851838" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="f52472f6-b9d9-4f0c-9dd7-ea13006e74cb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8b1ee32d-9177-444e-b707-ced7a0ded714" name="Projecte" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="39038b71-862a-439d-b3be-06eb07c56029" name="Lower" value="0-n">
+                      <elementDefinition Id="8b03601e-7415-43b9-ae3e-41cab5a6f4fa" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="c5611a55-f126-4b3d-98c9-d04a2bbfef88" name="Upper" value="0-n">
+                      <elementDefinition Id="153db606-1913-4bd0-8240-ea7d70e273dc" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="ce1c48d8-9304-466c-a1cc-b36423ac6eb8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d016503f-e272-4f56-bf3d-857e12d1b793" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d9bea0c9-c6fd-46db-b34c-e555d52c30bb" name="Projecte" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="04f77eae-e6a5-4159-a241-f6cec7a7313b" />
+        <targetEnds>
+          <association Id="ceae30a0-6963-4092-9123-a9c8fba254bb" isDerived="false" sourceEndRoleName="Projecte" targetEndRoleName="Administrador" isLeaf="false" isAbstract="false">
+            <classMoniker Id="49052d33-9d95-42d5-b00e-748f4e935e7c" LastKnownName="Administrador" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="78b48da1-5bbe-4fbc-96d9-77f889b3c174" name="Projecte" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="56183861-8cf2-4423-ad38-73615b214c61" name="Lower" value="0-n">
+                      <elementDefinition Id="b27be21e-f6eb-43c8-989b-5b267f112f44" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="e8cbda5b-165e-4b0e-9672-95351af39616" name="Upper" value="0-n">
+                      <elementDefinition Id="102fd925-805d-43ad-b449-1a74a8506aa5" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="32884979-b9c2-4e64-8257-0a75d657e1da" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4eaf4273-bb6d-4f76-be25-a19e71e0ccd8" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="e176377e-6c9b-4b65-a5d4-36c23b4c0943" name="Lower" value="1-1">
+                      <elementDefinition Id="0bea31b3-ed58-49ef-82f2-a7085b867e11" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="40d94aed-db78-4793-9fd8-a012fb16a789" name="Upper" value="1-1">
+                      <elementDefinition Id="e915010f-3390-4879-9633-72f82a1b5380" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="92ff1b17-19aa-49d5-8b08-5ed33145ffa5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9ad77c1b-c371-4d99-9557-6d4228b0a394" />
+          </association>
+          <association Id="28a0cc33-cfb7-4307-b825-e76d486cc17c" isDerived="false" sourceEndRoleName="Projecte" targetEndRoleName="Categoria" isLeaf="false" isAbstract="false">
+            <classMoniker Id="9f3e4ae7-4941-439d-9077-838191107749" LastKnownName="Categoria" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8c1cbbdb-af32-4411-a4cd-8ca4486f5853" name="Projecte" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="16475d12-12b1-48fa-9f22-a6bd0064ce39" name="Lower" value="0-n">
+                      <elementDefinition Id="1bf9a04d-8a11-411a-8225-1f907ee8cdfe" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="712d8091-1056-4141-bad2-ccee2d9db3c9" name="Upper" value="0-n">
+                      <elementDefinition Id="d3ff42b9-03f1-4856-bd3e-add2aebbb579" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="02e2f2a0-bbe6-4578-8569-1898edf24b4c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7cb92004-2819-48f1-8179-615e2f90dcbc" name="Categoria" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="a5ab4696-7e69-42d3-b8ba-1914ebffef9f" name="Lower" value="1-1">
+                      <elementDefinition Id="5a3f75dd-44d4-458b-aa00-8e82978524ac" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="baa3e14f-8f1b-4d1d-b0b2-a9c3f6703210" name="Upper" value="1-1">
+                      <elementDefinition Id="e78191bf-c62e-4ebe-93c6-ab1716d24f6d" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="f468bc3b-229a-4128-ad5d-1a44a8017c64" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e951d20e-78df-458b-a0bd-be672f3be207" />
+          </association>
+          <association Id="a58ffbee-3298-467c-84e1-ec78d29f14d4" isDerived="false" sourceEndRoleName="Projecte" targetEndRoleName="FranjaHoraria" isLeaf="false" isAbstract="false">
+            <classMoniker Id="7a537b1c-e84d-4d53-9a18-b14d599ba7bb" LastKnownName="FranjaHoraria" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7074fa0a-79b9-49c1-b880-d26130e775c6" name="Projecte" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="893d88d7-c96c-463a-9876-288eaf3cec27" name="Lower" value="1-1">
+                      <elementDefinition Id="26d574f2-5520-4cb8-a00c-2c03c88b6721" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="60811efb-9e11-4671-a946-28836b3867b3" name="Upper" value="1-1">
+                      <elementDefinition Id="b3645489-507e-43c0-88ce-18f74e722d27" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="999cf2fb-f8e8-48fb-9eea-046be5c84cc2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="acc5cd91-e597-4b5f-a089-7f83f9aee5dd" name="FranjaHoraria" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="a2d08d99-4a17-4b82-8914-8655075e48ef" name="Lower" value="1-n">
+                      <elementDefinition Id="51b39aea-f0ce-4ccc-ac8e-57d9232d61f0" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="65e6e562-3acc-4781-accb-4781df5b9f07" name="Upper" value="1-n">
+                      <elementDefinition Id="9c03bc02-482a-4650-a107-1e330cd48c11" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="ed1dc9bb-8d9a-4c1e-b57b-79f95e2a2880" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dd6c31d8-f05a-4330-9468-abe11161056f" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9f3e4ae7-4941-439d-9077-838191107749" name="Categoria" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e124748a-5617-4a90-9b1e-b512f6ed2436" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="7a537b1c-e84d-4d53-9a18-b14d599ba7bb" name="FranjaHoraria" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4f232c10-c14b-48bb-9023-78d49401f2e7" />
+        <targetEnds>
+          <association Id="766acdf3-28a5-4266-b9f2-2900da9ba5ac" isDerived="false" sourceEndRoleName="FranjaHoraria" targetEndRoleName="VoluntarisEnFranja" isLeaf="false" isAbstract="false">
+            <classMoniker Id="40c190c3-e1b8-4ca5-b992-af66cf18681b" LastKnownName="VoluntarisEnFranja" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="fa08bde1-eb4a-4ab4-a5d4-1d3c30d81eba" name="FranjaHoraria" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="503570c1-d652-4203-97b3-02feb4a96556" name="Lower" value="1-1">
+                      <elementDefinition Id="1918a6cd-0eb6-4793-aa72-88c7acf4edb5" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="89165584-dee3-48dd-928f-fe5c9d0e4b12" name="Upper" value="1-1">
+                      <elementDefinition Id="b2a521a7-3b89-490d-a804-784d10d1111d" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="eadd28f7-958f-4141-b46a-44b0f01b3aad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="749acb1f-40de-4027-b8b9-57400fd016a5" name="VoluntarisEnFranja" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="7fcf8b04-9223-48b4-8f2c-37c9951c7be7" name="Lower" value="0-n">
+                      <elementDefinition Id="19ef4b81-1caf-412d-a87a-482910306bca" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="b0d11c5f-5cab-4dbc-9c09-47727d4a6767" name="Upper" value="0-n">
+                      <elementDefinition Id="11af7697-335c-49de-8bb8-b2a58f43b4f8" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="99120daa-7854-417e-9a0d-fe55f36b3d3d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="dd604a99-81d8-4de5-81ab-b1e4800c7f01" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="40c190c3-e1b8-4ca5-b992-af66cf18681b" name="VoluntarisEnFranja" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="509be156-e43a-4804-8509-04e15d18c79d" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="81f59f37-71d4-4c1c-91e1-57ed8bc94b0d" name="DiagramaVoluntaris">
+    <elementDefinition Id="c7e6c48e-e1da-44ea-85e4-25c8059543f1" />
+    <profileInstances>
+      <packageHasProfileInstances Id="e4180c38-ff90-4600-aec3-140c551adb5d">
+        <profileInstance Id="de980687-356b-4909-bc1e-6ccc5be149e0" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="32500d10-60e4-4d87-8180-da81a2a7525d">
+        <profileInstance Id="9d72c4fd-4f42-4be7-817c-cc6690ac90a4" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
